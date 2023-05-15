@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практичне завдання</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header_container">
+          <div class="header_contant_text">
+            <a href="./logo.png"><img src="./logo.png" alt="logo dron" /></a>
+            <h1 class="header_heading">Армія дронів</h1>
+            <button class="button button_header">Зробити внесок</button>
+          </div>
+          <div class="header_contant_img">
+            <img class="header_dron" src="./dron_general.png" alt="dron" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="section_information">
+          <h2 class="section_information_heading">
+            Мрієте, щоб ЗСУ стали ще сильніші, а палало аж до Москви?
+          </h2>
+          <p class="section_information_text">
+            Кожен день наближає Україну до перемоги. <br />Наскільки довгий буде
+            цей шлях - залежить від нас. <br />Допоможіть зібрати кошти на
+            дрони. Хлопці обіцяють – результат вам <br />сподобається! Адже в
+            кожного з нас єдине бажання, щоб зло на нашій <br />
+            землі було знищено. Ваш внесок важливий. Зробіть його просто зараз!
+          </p>
+
+          <div class="section_information_picture">
+            <img class="img img_dron" src="./dron1.png" alt="dron1" />
+            <img class="img img_dron" src="./dron2.png" alt="dron2" />
+            <img class="img" src="./dron3.png" alt="dron3" />
+          </div>
+        </section>
+
+        <section class="section_forma">
+          <h2 class="section_forma_heading">Зробити благодійний внесок</h2>
+          <form class="form" action="#" method="post">
+            <fieldset class="form_button">
+              <h3 class="form_button_heading">Оберіть фонд</h3>
+              <button class="btn_form btn_chose">
+                Фонд Сергія Притули
+                <span
+                  ><svg
+                    width="14"
+                    height="10"
+                    viewBox="0 0 14 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.2514 0.677353C13.508 0.908265 13.5288 1.30345 13.2979 1.56002L6.84991 8.72446C6.03779 9.62681 4.66289 9.73928 3.71493 8.9809L0.776245 6.62996C0.506706 6.41432 0.463006 6.02102 0.678636 5.75148C0.894267 5.48194 1.28758 5.43824 1.55711 5.65387L4.4958 8.00482C4.92669 8.34953 5.55165 8.29841 5.92079 7.88825L12.3688 0.723809C12.5997 0.46724 12.9949 0.446441 13.2514 0.677353Z"
+                      fill="#12569B"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button class="btn_form">Повернись живим</button>
+              <button class="btn_form">Рахунок НБУ</button>
+              <button class="btn_form">PayPal</button>
+            </fieldset>
+
+            <fieldset class="form_button_bank">
+              <h3 class="form_button_bank_heading">Номер карти</h3>
+              <label for="number-card">
+              <input id="number-card"  type="text" placeholder="XXXX XXXX XXXX XXXX" required/></label>
+              <label for="date-card">Термін дії</label>
+              <label for="CVV-card">CVV</label><br>
+              <input id="date-card" class="inline" type="text" placeholder="XX/XX"  required/>
+              <input id="CVV-card" class="inline"  type="text" placeholder="XXX"  required/>
+            </fieldset>
+            
+            <fieldset class="form_button_date">
+             <label for="name_client">Термін дії</label>
+              <input id="name_client" type="text" placeholder="Ваше ім'я"  required/>
+              <button class="submit">Підтвердити внесок</button>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Створено як навчальний проєкт курсу "Знайомство з IT: тестдрайв професій" від Prometheus.</p>
+        <p class="footer_name">Зінько Ольга </p>
+    </footer>
+    </div>
+  </body>
+</html>
